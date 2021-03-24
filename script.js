@@ -25,8 +25,8 @@ const removeClass = function () {
 };
 
 const addColor = function () {
-  if (selectBody.class == null) selectBody.add("")
-}
+  if (selectBody.class == null) selectBody.add("");
+};
 
 const makeBodyRed = function () {
   removeClass();
