@@ -24,6 +24,10 @@ const removeClass = function () {
   console.log("removed class");
 };
 
+const addColor = function () {
+  if (selectBody.class == null) selectBody.add("")
+}
+
 const makeBodyRed = function () {
   removeClass();
   selectBody.classList.add("menu-red");
